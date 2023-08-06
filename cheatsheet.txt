@@ -1,0 +1,10 @@
+git config --global user.name amaan
+git config --global user.email ""
+touch.gitignore
+git init
+git add .
+git commit -m ""intial commit"
+git status //to see
+ssh key generation
+git remote add origin
+git push origin master 
