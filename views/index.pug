@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+   title ABCD Academy  
+   style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            #logo 
+                img(src="/static/img/download3.png")
+                | ABCD
+            li #[a(href="/") Home] 
+            li #[a(href="/") about] 
+            li #[a(href="/") services]
+            li #[a(href="/") class info]
+            li #[a(href="/") contact us]
+    section#introSection 
+         div Welcome to ABCD dance academy
+         div.small Any Body Can Dance 
+    section#missionSection
+         h3 Our mission
+         .card 
+            p Dance Perfection
+            div.card-box
+                .card-img 
+                    img(src="/static/img/download2.png")
+                .card-content 
+                    p This is the best academy in the world 
+         .card 
+            p this is random 
+            div.card-box
+                .card-img 
+                    img(src="/static/img/download1.png")
+                .card-content 
+                    p This is the best academy in the world 
+         .card 
+            p Dance Expert
+            div.card-box
+                .card-img 
+                    img(src="/static/img/download4.png")
+                .card-content 
+                    p This is the best academy in the world 
+         
+    section#sponsorsSection
+        h3  Our sponsors 
+            #sponsors 
+                img(src="/static/img/logo1.png", class="spimage")
+                img(src="/static/img/logo2.png", class="spimage")
+                img(src="/static/img/logo3.png", class="spimage")
+                img(src="/static/img/logo4.png", class="spimage")
+    footer#footer 
+        | Copyright@ABCD Academy | All rights reserved 
+    script
+      include ../static/index.js 
